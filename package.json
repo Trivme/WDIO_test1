@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/wdio wdio.conf.js"
+    "test": "./node_modules/.bin/wdio wdio.conf.js",
+    "test:register": "wdio wdio.conf.js --spec test/specs/register.js --inspect",
+    "test:login": "wdio wdio.conf.js --spec test/specs/login.js --inspect"
   },
   "keywords": [],
   "author": "",
