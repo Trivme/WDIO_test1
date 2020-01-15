@@ -28,5 +28,8 @@
     "eslint-plugin-wdio": "^5.13.2",
     "mocha": "^7.0.0",
     "wdio-chromedriver-service": "^5.0.2"
+  },
+  "dependencies": {
+    "test": "^0.6.0"
   }
 }
