@@ -1,11 +1,12 @@
 //const assert = require('assert');
 const { expect } = require('chai');
 
-const email = 'vv@yahoo.com';
+const email = Date.now() + 'vv@yahoo.com';
 const firstName = 'VaTest';
 const lastName = 'TestV';
 const cellPhone =  11234567899;
 const password = '54321';
+module.exports = {firstName, lastName, cellPhone, password};
 
 describe('register page', () => {
   before(() => {
