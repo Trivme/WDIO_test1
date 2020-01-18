@@ -30,8 +30,9 @@ describe('login page - Login', () => {
 
   it('should have a correct name on user page', () => {
     const element = $('//a[contains(@class,"dropdown-toggle nav-link")]');
-    const actual = element.getText();
     const expected = 'VaTest TestV';
+
+    const actual = element.getText();
     expect(actual).equal(expected);
   });
 

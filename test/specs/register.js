@@ -1,6 +1,26 @@
 //const assert = require('assert');
 const { expect } = require('chai');
 
+const URL_REGISTER = 'https://stage.pasv.us/user/register';
+
+const user = {
+  email: Date.now() + 'vv@yahoo.com',
+  password: '54321',
+  firstName: 'VaTest',
+  lastName: 'TestV',
+  cellPhone: 11234567899,
+  about: 'No pain - no gain',
+  lang: 'Nativ'
+};
+
+const page_register = {
+  title: 'Progress Monitor',
+  h1: 'User Regisrer',
+  deck: 'Profile with fictitious or dummy data will be detected.',
+  buttonText: 'Submit'
+};
+
+
 const email = Date.now() + 'vv@yahoo.com';
 const firstName = 'VaTest';
 const lastName = 'TestV';
