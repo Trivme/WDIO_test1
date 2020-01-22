@@ -13,7 +13,7 @@ const user = {
   lang: 'Nativ'
 };
 
-const page_register = {
+const pageRegister = {
   title: 'Progress Monitor',
   h1: 'User Regisrer',
   deck: 'Profile with fictitious or dummy data will be detected.',
